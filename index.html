@@ -1,0 +1,582 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Publication</title>
+  </head>
+  <body>
+    <div class="heading">
+      <div class="header">
+        <div><img src="img/logo.png" class="logo" />publication</div>
+        <div class="socials">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-pinterest"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+        <div class="login">
+          <a href="#" class="header-link"
+            ><i class="fas fa-shopping-cart"></i>Cart</a
+          >
+          <a href="#" class="header-link"><i class="fas fa-user"></i>Login</a>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <div class="nav-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Authors</a></li>
+            <li><a href="#">Distribution</a></li>
+            <li><a href="#">Price List</a></li>
+            <li><a href="#">Offer</a></li>
+            <li><a href="#">Publish With Us</a></li>
+          </div>
+
+          <li class="search-field">
+            <input
+              type="search"
+              placeholder="Search by ISBN, Title, Author, Keyword"
+            />
+            <button class="search-button">
+              <i class="fas fa-search"></i> Search
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="banner">
+      <!-- <img src="img/banner.png" alt="Main Banner" class="banner-image" /> -->
+    </div>
+
+    <div class="programs">
+      <h1 class="title">Programs</h1>
+      <hr class="title-hr" />
+      <br />
+      <p class="program-content">
+        At publication, we believe in 360 development. Learn, practice and
+        assess your performance with our best selling programs and services.
+      </p>
+      <p class="program-content">What do you want today?</p>
+
+      <div class="programs-list">
+        <div class="books">
+          <span class="program-icon"><i class="fas fa-book"></i></span>
+          <h2>Books</h2>
+          <p>Choose from range of best selling study resources</p>
+          <button class="browse">Browse Now</button>
+        </div>
+        <div class="videos">
+          <span class="program-icon"> <i class="fas fa-video"></i></span>
+          <h2>Videos</h2>
+          <p>Complement your study with stunning visuals</p>
+          <button class="browse">Watch Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="categories">
+      <h1 class="title">Categories</h1>
+      <hr class="title-hr" />
+      <br />
+      <p class="categories-content">
+        Whether you want to be a doctor, an engineer, a bureaucrat or want to
+        join government to help them run smoothly or simply want to excel in
+        your school studies, we have got you covered.
+      </p>
+      <div class="courses">
+        <div class="items red">
+          Engineering Entrances
+          <hr class="category-line" />
+        </div>
+        <div class="items blue">
+          Medical Entrances
+          <hr class="category-line" />
+        </div>
+        <div class="items red">
+          School Curriculum
+          <hr class="category-line" />
+        </div>
+        <div class="items blue">
+          Competitive Exams
+          <hr class="category-line" />
+        </div>
+        <div class="items red">
+          Lok Sewa
+          <hr class="category-line" />
+        </div>
+        <div class="items blue" i>
+          ITI & Polytechnic
+          <hr class="category-line" />
+        </div>
+      </div>
+    </div>
+
+    <div class="students-viewing">
+      <h1 class="title">Students are viewing</h1>
+      <div class="row">
+        <div class="col-md-12">
+          <div
+            id="myProductCarousel"
+            class="carousel slide"
+            data-ride="carousel"
+            data-interval="0"
+          >
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#myProductCarousel"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#myProductCarousel" data-slide-to="1"></li>
+            </ol>
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./img/book1.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Moral Compass</h4>
+                        <p class="item-price">
+                          <s>$400.00</s> <span>$369.00</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star-o"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-light"
+                          ><i class="fas fa-search"></i> Explore</a
+                        >
+                        <a href="#" class="btn btn-warning"
+                          ><i class="fas fa-shopping-cart"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./img/book2.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>The Death Cure</h4>
+                        <p class="item-price">
+                          <s>$25.00</s> <span>$23.99</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star-o"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-light"
+                          ><i class="fas fa-search"></i> Explore</a
+                        >
+                        <a href="#" class="btn btn-warning"
+                          ><i class="fas fa-shopping-cart"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./img/book3.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Farenheit 451</h4>
+                        <p class="item-price">
+                          <s>$899.00</s> <span>$649.00</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star-half-o"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-light"
+                          ><i class="fas fa-search"></i> Explore</a
+                        >
+                        <a href="#" class="btn btn-warning"
+                          ><i class="fas fa-shopping-cart"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./img/book4.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>The Swallows</h4>
+                        <p class="item-price">
+                          <s>$315.00</s> <span>$250.00</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star-o"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star-o"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-light"
+                          ><i class="fas fa-search"></i> Explore</a
+                        >
+                        <a href="#" class="btn btn-warning"
+                          ><i class="fas fa-shopping-cart"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./img/book5.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Strange Flowers</h4>
+                        <p class="item-price">
+                          <s>$289.00</s> <span>$269.00</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star-o"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-light"
+                          ><i class="fas fa-search"></i> Explore</a
+                        >
+                        <a href="#" class="btn btn-warning"
+                          ><i class="fas fa-shopping-cart"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <a
+              class="carousel-control left"
+              href="#myProductCarousel"
+              data-slide="prev"
+            >
+              <i class="fa fa-angle-left"></i>
+            </a>
+            <a
+              class="carousel-control right"
+              href="#myProductCarousel"
+              data-slide="next"
+            >
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <h1 class="title">Testimonials</h1>
+      <div class="col-md-8 col-center">
+        <div
+          id="myTestimonialCarousel"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <!-- Carousel indicators -->
+          <ol class="carousel-indicators">
+            <li
+              data-target="#myTestimonialCarousel"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#myTestimonialCarousel" data-slide-to="1"></li>
+            <li data-target="#myTestimonialCarousel" data-slide-to="2"></li>
+            <li data-target="#myTestimonialCarousel" data-slide-to="3"></li>
+          </ol>
+          <!-- Wrapper for carousel items -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="img-box">
+                <img src="./img/testimonial1.jpg" alt="1" />
+              </div>
+              <p class="testimonial">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu
+                sem tempor, varius quam at, luctus dui. Mauris magna metus,
+                dapibus nec turpis vel, semper malesuada ante. Idac bibendum
+                scelerisque non non purus. Suspendisse varius nibh non aliquet.
+              </p>
+              <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+            </div>
+            <div class="item">
+              <div class="img-box">
+                <img src="./img/testimonial2.jpg" alt="2" />
+              </div>
+              <p class="testimonial">
+                Vestibulum quis quam ut magna consequat faucibus. Pellentesque
+                eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus.
+                Pellentesque viverra sagittis quam at mattis. Suspendisse
+                potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.
+              </p>
+              <p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+            </div>
+            <div class="item">
+              <div class="img-box">
+                <img src="./img/testimonial3.jpg" alt="3" />
+              </div>
+              <p class="testimonial">
+                Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id
+                lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus
+                turpis at accumsan tincidunt. Phasellus risus risus, volutpat
+                vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor
+                eget rutrum.
+              </p>
+              <p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
+            </div>
+            <div class="item">
+              <div class="img-box">
+                <img src="./img/testimonial4.jpg" alt="2" />
+              </div>
+              <p class="testimonial">
+                Vestibulum quis quam ut magna consequat faucibus. Pellentesque
+                eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus.
+                Pellentesque viverra sagittis quam at mattis. Suspendisse
+                potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.
+              </p>
+              <p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+            </div>
+          </div>
+          <!-- Carousel controls -->
+          <a
+            class="carousel-control left"
+            href="#myTestimonialCarousel"
+            data-slide="prev"
+          >
+            <i class="fa fa-angle-left"></i>
+          </a>
+          <a
+            class="carousel-control right"
+            href="#myTestimonialCarousel"
+            data-slide="next"
+          >
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer1">
+        <h1>Study smarter with our learning digital product</h1>
+        <h3>Enjoy a better reading experience anytime, anywhere!</h3>
+        <button href="#" class="button btn-primary">Learn More</button>
+      </div>
+      <div class="footer2">
+        <div class="footer2-section">
+          <div class="footer2-heading">Payment Methods</div>
+          <div class="payment-methods">
+            <button class="button btn-primary">Khalti</button
+            ><button class="button btn-primary">ESEWA</button
+            ><button class="button btn-primary">IPAY</button>
+          </div>
+        </div>
+        <div class="footer2-section">
+          <div class="footer2-heading">Follow us on social medias</div>
+          <div class="footer-socials">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+        <div class="footer2-section">
+          <div class="footer2-heading">Never miss out on our popular deals</div>
+          <div>
+            <input
+              type="email"
+              class="subscribe-mail"
+              placeholder="email address"
+            /><button
+              class="button btn-primary"
+              style="
+                border: 2px solid orange;
+                border-radius: 5px;
+                padding: 10px 20px;
+                background: none;
+                color: orange;
+                font-size: 18px;
+                font-weight: bold;
+              "
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer3">
+        <div class="footer3-1"><img src="img/logo.png" class="logo" /></div>
+        <div class="footer3-2">
+          <h4>Explore</h4>
+          <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Publish With Us</li>
+          </ul>
+        </div>
+        <div class="footer3-3">
+          <h4>Programs</h4>
+          <ul>
+            <li>Books</li>
+            <li>Videos</li>
+          </ul>
+        </div>
+        <div class="footer3-4">
+          <h4>Categories</h4>
+          <ul>
+            <li>Engineering Entrances</li>
+            <li>Medical Entrances</li>
+            <li>School Curriculum</li>
+            <li>Competitive Exams</li>
+            <li>Government Recruitments</li>
+            <li>ITI $ Polytechnic</li>
+          </ul>
+        </div>
+        <div class="footer3-5">
+          <h4>Terms of Use</h4>
+          <ul>
+            <li>Terms and Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Supply & Return Method</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer4">Copy Right 2020 Digital Publication</div>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
